@@ -1,0 +1,131 @@
+{
+  "id": "11f0a4dd-15c2-4ed8-a9be-f33f1a8b73df",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.responses": {
+      "name": "responses",
+      "schema": "",
+      "columns": {
+        "response_id": {
+          "name": "response_id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "timestamp": {
+          "name": "timestamp",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "now()"
+        },
+        "user_session": {
+          "name": "user_session",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "image_id": {
+          "name": "image_id",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "image_label": {
+          "name": "image_label",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "user_choice": {
+          "name": "user_choice",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "correct": {
+          "name": "correct",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.stats": {
+      "name": "stats",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "timestamp": {
+          "name": "timestamp",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "now()"
+        },
+        "total_responses": {
+          "name": "total_responses",
+          "type": "bigint",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "correct_real": {
+          "name": "correct_real",
+          "type": "bigint",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "incorrect_real": {
+          "name": "incorrect_real",
+          "type": "bigint",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "correct_ai": {
+          "name": "correct_ai",
+          "type": "bigint",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "incorrect_ai": {
+          "name": "incorrect_ai",
+          "type": "bigint",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
