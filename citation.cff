@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the following metadata."
+title: "TYCOV: Test Your Cognitive Vision"
+version: "1.0.0"
+doi: ""
+authors:
+  - family-names: "Singh"
+    given-names: "Aaryan"
+    affiliation: "Independent Researcher (High School)"
+    email: "aaryan724singh@gmail.com"
+keywords:
+  - human-computer interaction
+  - artificial intelligence
+  - cognitive vision
+  - web application
+  - reproducible research
+  - perception experiments
+license: "MIT"
+repository-code: "https://github.com/ryen-x/tycov"
+url: "https://github.com/ryen-x/tycov"
+abstract: >
+  TYCOV (Test Your Cognitive Vision) is an open-source web application designed to study how humans distinguish between AI-generated and real images. The platform was deployed over 55 weeks, collecting more than 60,000 anonymized responses from 1,217 unique participants. Built using Next.js, Tailwind CSS, Supabase, and Drizzle ORM, TYCOV emphasizes open science, reproducibility, and ethical data collection practices.
+preferred-citation:
+  type: software
+  title: "TYCOV: Test Your Cognitive Vision"
+  authors:
+    - family-names: "Singh"
+      given-names: "Aaryan"
+  version: "1.0.0"
+  year: 2025
+  publisher: "Open Journals (JOSS)"
