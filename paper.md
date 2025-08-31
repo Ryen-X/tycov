@@ -53,7 +53,7 @@ The software stack includes:
   - Responses stored in the `responses` table.  
   - Aggregated statistics stored in the `stats` table.  
 
-Images for the reference implementation were generated using **Stable Diffusion XL (SDXL)** [@podell2023sdxl] and **Flux.1 Schnell** [@flux2024schnell].
+Images for the reference implementation were generated using **Stable Diffusion XL (SDXL)** [@Podell2024SDXL] and **Flux.1 Schnell** [@Flux2024Schnell].
 
 # Reproducibility
 
