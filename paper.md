@@ -7,13 +7,11 @@ tags:
   - web application
   - reproducible research
 authors:
-  - Name: Aaryan Singh
-    ORCID: 0009-0004-0832-0161
-    Affiliation:
-      Name: Independent High School Researcher
-      Index: 1
+  - name: Aaryan Singh
+    orcid: 0009-0004-0832-0161
+    affiliation: [1]
 affiliations:
-  - Name: Independent High School Researcher
+  - name: Independent High School Researcher
     index: 1
 date: 2025-08-22
 bibliography: paper.bib
