@@ -1,3 +1,5 @@
+[![status](https://joss.theoj.org/papers/c99e5bbfd3d2f7ea16f5696fe8eb7484/status.svg)](https://joss.theoj.org/papers/c99e5bbfd3d2f7ea16f5696fe8eb7484)
+
 # TYCOV: Test Your Cognitive Vision
 
 **TYCOV** is an open-source web application for studying how humans distinguish between AI-generated and real images. It is designed for reproducible Human–Computer Interaction (HCI) and AI perception experiments, with transparent data collection, ethical compliance, and reproducible analysis.
