@@ -9,7 +9,7 @@ tags:
 authors:
   - name: Aaryan Singh
     orcid: 0009-0004-0832-0161
-    affiliation: [1]
+    affiliation: "1"
 affiliations:
   - name: Independent High School Researcher
     index: 1
